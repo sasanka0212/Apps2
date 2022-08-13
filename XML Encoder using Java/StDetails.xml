@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="10.0.2" class="java.beans.XMLDecoder">
+ <object class="College" id="College0">
+  <void property="list">
+   <void method="add">
+    <object class="Student" id="Student0">
+     <void class="Student" method="getField">
+      <string>roll</string>
+      <void method="set">
+       <object idref="Student0"/>
+       <int>17</int>
+      </void>
+     </void>
+     <void class="Student" method="getField">
+      <string>sname</string>
+      <void method="set">
+       <object idref="Student0"/>
+       <string>Siddhartha</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Student" id="Student1">
+     <void class="Student" method="getField">
+      <string>roll</string>
+      <void method="set">
+       <object idref="Student1"/>
+       <int>3</int>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
